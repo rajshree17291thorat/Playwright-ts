@@ -1,0 +1,8 @@
+Error occurred while clicking on Register link: Error: locator.waitFor: Error: strict mode violation: getByText('Register', { exact: true }) resolved to 2 elements:
+    1) <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/register">Register</a> aka locator('#top-links').getByText('Register')
+    2) <a class="list-group-item" href="https://naveenautomationlabs.com/opencart/index.php?route=account/register">Register</a> aka getByRole('link', { name: 'Register' })
+
+Call log:
+  - waiting for getByText('Register', { exact: true }) to be visible
+
+Clicked on My Account link

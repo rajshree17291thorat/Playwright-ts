@@ -1,0 +1,7 @@
+Exception occurred while clicking 'Register': Error: locator.click: Error: strict mode violation: locator('a:has-text("Register")') resolved to 2 elements:
+    1) <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/register">Register</a> aka locator('#top-links').getByRole('link', { name: 'Register' })
+    2) <a class="list-group-item" href="https://naveenautomationlabs.com/opencart/index.php?route=account/register">Register</a> aka locator('#column-right').getByRole('link', { name: 'Register' })
+
+Call log:
+  - waiting for locator('a:has-text("Register")')
+

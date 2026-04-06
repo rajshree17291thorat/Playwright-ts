@@ -1,0 +1,16 @@
+Error occurred while clicking on My Account link: Error: locator.click: Error: strict mode violation: getByRole('link', { name: ' My Account' }) resolved to 3 elements:
+    1) <a title="My Account" data-toggle="dropdown" class="dropdown-toggle" href="https://naveenautomationlabs.com/opencart/index.php?route=account/account">…</a> aka getByRole('link', { name: ' My Account' })
+    2) <a class="list-group-item" href="https://naveenautomationlabs.com/opencart/index.php?route=account/account">My Account</a> aka locator('#column-right').getByRole('link', { name: 'My Account' })
+    3) <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/account">My Account</a> aka getByRole('contentinfo').getByRole('link', { name: 'My Account' })
+
+Call log:
+  - waiting for getByRole('link', { name: ' My Account' })
+
+Error occurred while clicking on Register link: Error: locator.click: Error: strict mode violation: locator('text=Register') resolved to 3 elements:
+    1) <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/register">Register</a> aka locator('#top-links').getByText('Register')
+    2) <strong>Register Account</strong> aka getByText('Register Account')
+    3) <a class="list-group-item" href="https://naveenautomationlabs.com/opencart/index.php?route=account/register">Register</a> aka getByRole('link', { name: 'Register' })
+
+Call log:
+  - waiting for locator('text=Register')
+
